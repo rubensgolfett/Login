@@ -23,6 +23,13 @@ screens */
         float: right;
         width: 50%;
     }
+    div#forms h1 {
+        font-size: 1.3em;
+    }
+
+    div#forms p {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -43,5 +50,13 @@ screens */
     section#login > div#forms {
         float: right;
         width: 50%;
+    }
+
+    div#forms h1 {
+        font-size: 1.7em;
+    }
+    
+    div#forms p {
+        font-size: 1.3em;
     }
 }

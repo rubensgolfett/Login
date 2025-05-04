@@ -53,3 +53,62 @@ div#forms {
     display: block;
     padding: 10px;
 }
+
+div#forms h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+div#forms p {
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+}
+
+.camp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.camp span {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.btn {
+    padding: 6px 10px;
+    font-size: 14px;
+    width: 200px;
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--color-green);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.438);
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #3d8582;
+}
+
+a.botton {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid teal;
+    border-radius: 10px;
+    background-color: white;
+    color: teal;
+    margin-top: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.438);
+}
