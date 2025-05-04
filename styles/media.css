@@ -12,15 +12,16 @@ screens */
     }
     section#login {
         width: 90vw;
+        height: 370px;
     }
     section#login > div#image {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#forms {
-        float: right;
+        float: left;
         width: 50%;
     }
     div#forms h1 {
@@ -29,6 +30,12 @@ screens */
 
     div#forms p {
         font-size: 1em;
+    }
+
+    .btn {
+        padding: 6px 10px;
+        font-size: 14px;
+        width: 600px;
     }
 }
 
@@ -39,6 +46,7 @@ screens */
 
     section#login {
         width: 920px;
+        height: 470px;
     }
 
     section#login > div#image {
@@ -55,8 +63,14 @@ screens */
     div#forms h1 {
         font-size: 1.7em;
     }
-    
+
     div#forms p {
         font-size: 1.3em;
+    }
+
+    .btn {
+        padding: 6px 10px;
+        font-size: 14px;
+        width: 600px;
     }
 }

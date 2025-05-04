@@ -27,7 +27,7 @@ main {
 section#login {
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 470px;
     border-radius: 20px;
     overflow: hidden;
 
@@ -35,10 +35,10 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
 
     transition-timing-function: ease;
     transition: width 0.5s, height 0.6s;
+    transform: translate(-50%, -50%);
 }
 
 div#image {
@@ -71,7 +71,7 @@ div#forms p {
 }
 
 .camp span {
-    font-size: 18px;
+    font-size: 30px;
     margin-right: 8px;
 }
 
